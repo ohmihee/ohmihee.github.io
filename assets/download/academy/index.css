@@ -9,7 +9,7 @@ a{
     text-decoration: none;
 }
 #wrap{
-    width: 100%;
+    width: 100vw;
 }
 #header{
     width: 1200px;
@@ -73,24 +73,25 @@ a{
     color:white;
     width:70px;
     height: 50px;
-    
-   
 
 }
 #visual{
-    position :absolute;
-    width: 100%;
+    position :block;
+    width: 100vw;
     height: 500px;
-    margin: 0 auto;
+    margin: auto;
   
 }
 #bannerBtn{
-    width:100%;
+    width:100vw;
     height: 40px;
     background-color:rgba(0,0,0,0.5) ;
     position: absolute;
     top : 562px;
-    padding-left: 800px;
+   
+}
+#bannerBtn>ul{
+    padding-left:300px;
 }
 #bannerBtn>li{
     float:left;
@@ -142,7 +143,7 @@ a{
 }
 #container1{
     width: 1200px;
-    margin: 530px auto 0 auto;
+    margin: 0 auto 0 auto;
     height: 921px;
 }
 .big_box{
